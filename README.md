@@ -28,4 +28,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0214-shortest-palindrome](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/0214-shortest-palindrome) |
+## Array
+|  |
+| ------- |
+| [0628-maximum-product-of-three-numbers](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/0628-maximum-product-of-three-numbers) |
+## Math
+|  |
+| ------- |
+| [0628-maximum-product-of-three-numbers](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/0628-maximum-product-of-three-numbers) |
+## Sorting
+|  |
+| ------- |
+| [0628-maximum-product-of-three-numbers](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/0628-maximum-product-of-three-numbers) |
 <!---LeetCode Topics End-->
