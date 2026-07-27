@@ -46,4 +46,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
+## Database
+|  |
+| ------- |
+| [0595-big-countries](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/0595-big-countries) |
 <!---LeetCode Topics End-->
