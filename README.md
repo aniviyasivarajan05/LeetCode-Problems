@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0010-regular-expression-matching](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/0010-regular-expression-matching) |
 | [0214-shortest-palindrome](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/0214-shortest-palindrome) |
 | [0796-rotate-string](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/0796-rotate-string) |
+| [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/3517-smallest-palindromic-rearrangement-i) |
 | [3518-smallest-palindromic-rearrangement-ii](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/3518-smallest-palindromic-rearrangement-ii) |
 ## Dynamic Programming
@@ -39,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0628-maximum-product-of-three-numbers](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/0628-maximum-product-of-three-numbers) |
+| [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3518-smallest-palindromic-rearrangement-ii](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/3518-smallest-palindromic-rearrangement-ii) |
 ## Sorting
 |  |
@@ -69,4 +71,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3518-smallest-palindromic-rearrangement-ii](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/3518-smallest-palindromic-rearrangement-ii) |
+## Greedy
+|  |
+| ------- |
+| [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 <!---LeetCode Topics End-->
