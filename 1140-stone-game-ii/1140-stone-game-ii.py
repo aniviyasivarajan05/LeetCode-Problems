@@ -1,36 +1,30 @@
 class Solution:
     def stoneGameII(self, piles: list[int]) -> int:
         n = len(piles)
-
-        # suffix[i] = sum of piles[i:]
-        suffix = [0] * (n + 1)
-
+        
+        # Precompute suffix sums
+        suffix_sum = [0] * (n + 1)
         for i in range(n - 1, -1, -1):
-            suffix[i] = suffix[i + 1] + piles[i]
+            suffix_sum[i] = suffix_sum[i + 1] + piles[i]
 
-        # dp(i, M) = maximum stones current player can get
-        # from index i when M is M
-        dp = [[0] * (n + 1) for _ in range(n + 1)]
+        memo = {}
 
-        for i in range(n - 1, -1, -1):
-            for M in range(1, n + 1):
+        def dp(i: int, M: int) -> int:
+            # Base case: remaining piles can all be taken
+            if i + 2 * M >= n:
+                return suffix_sum[i]
+            
+            if (i, M) in memo:
+                return memo[(i, M)]
 
-                # Can take all remaining piles
-                if i + 2 * M >= n:
-                    dp[i][M] = suffix[i]
-                    continue
+            max_stones = 0
+            # Try taking X piles (1 <= X <= 2M)
+            for X in range(1, 2 * M + 1):
+                next_M = max(M, X)
+                stones = suffix_sum[i] - dp(i + X, next_M)
+                max_stones = max(max_stones, stones)
 
-                # Current player chooses X
-                for X in range(1, 2 * M + 1):
-                    next_M = max(M, X)
+            memo[(i, M)] = max_stones
+            return max_stones
 
-                    # After taking X piles, opponent starts at i+X
-                    opponent = dp[i + X][next_M]
-
-                    # Total remaining stones - opponent's stones
-                    dp[i][M] = max(
-                        dp[i][M],
-                        suffix[i] - opponent
-                    )
-
-        return dp[0][1]
+        return dp(0, 1)
