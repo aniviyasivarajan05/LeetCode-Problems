@@ -2,16 +2,18 @@ class Solution:
     def maxSubarrayLength(self, nums: List[int], k: int) -> int:
         freq = {}
         left = 0
-        ans = 0
-
+        max_length = 0
+        
         for right in range(len(nums)):
-            freq[nums[right]] = freq.get(nums[right], 0) + 1
-
-            while freq[nums[right]] > k:
+            val = nums[right]
+            freq[val] = freq.get(val, 0) + 1
+            
+            # Shrink window until frequency condition is satisfied
+            while freq[val] > k:
                 freq[nums[left]] -= 1
                 left += 1
-
-            ans = max(ans, right - left + 1)
-
-        return ans
+            
+            max_length = max(max_length, right - left + 1)
+            
+        return max_length
         
