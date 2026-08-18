@@ -1,30 +1,21 @@
 class Solution:
     def largestInteger(self, nums, k):
         n = len(nums)
-        count = [0] * 51
-        freq = [0] * 51
-
-        # First window
-        for i in range(k):
-            freq[nums[i]] += 1
+        ans = -1
 
         for x in range(51):
-            if freq[x] > 0:
-                count[x] += 1
+            positions = [i for i in range(n) if nums[i] == x]
 
-        # Slide the window
-        for i in range(k, n):
-            freq[nums[i - k]] -= 1
-            freq[nums[i]] += 1
+            windows = set()
 
-            # Only count numbers currently present
-            for x in range(51):
-                if freq[x] > 0:
-                    count[x] += 1
+            for p in positions:
+                start = max(0, p - k + 1)
+                end = min(p, n - k)
 
-        # Largest number appearing in exactly one window
-        for x in range(50, -1, -1):
-            if count[x] == 1:
-                return x
+                for s in range(start, end + 1):
+                    windows.add(s)
 
-        return -1
+            if len(windows) == 1:
+                ans = x
+
+        return ans
