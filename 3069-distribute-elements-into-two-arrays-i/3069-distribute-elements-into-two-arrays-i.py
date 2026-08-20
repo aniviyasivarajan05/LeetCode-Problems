@@ -10,4 +10,3 @@ class Solution:
                 arr2.append(nums[i])
 
         return arr1 + arr2
-        
