@@ -1,21 +1,19 @@
 class Solution:
+    def stoneGameVIII(self, stones):
+        n = len(stones)
 
-  def stoneGameVIII(self, stones: list[int]) -> int:
-    n = len(stones)
+        # Prefix sums
+        prefix = [0] * n
+        prefix[0] = stones[0]
 
-    # Compute prefix sums
-    pref = [0] * n
-    pref[0] = stones[0]
-    for i in range(1, n):
-      pref[i] = pref[i - 1] + stones[i]
+        for i in range(1, n):
+            prefix[i] = prefix[i - 1] + stones[i]
 
-    # max_diff tracks max(pref[j] - dp[j]) for j > i
-    # At i = n-1, the only available next prefix is j = n (which corresponds to index n-1 in 0-indexed pref)
-    max_diff = pref[n - 1]
+        # dp represents the best score difference
+        # from the current position
+        dp = prefix[n - 1]
 
-    # Iterate backwards from n-2 down to 1 (0-indexed)
-    for i in range(n - 2, 0, -1):
-      dp_i = max_diff
-      max_diff = max(max_diff, pref[i] - dp_i)
+        for i in range(n - 2, 0, -1):
+            dp = max(dp, prefix[i] - dp)
 
-    return max_diff
+        return dp
