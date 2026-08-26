@@ -1,31 +1,27 @@
 class Solution:
     def shortestBeautifulSubstring(self, s: str, k: int) -> str:
-        ones = []
-
-        # Store positions of all 1s
-        for i in range(len(s)):
-            if s[i] == '1':
-                ones.append(i)
-
+        # Store indices of all '1's in string s
+        ones = [i for i, ch in enumerate(s) if ch == '1']
+        
+        # If there are fewer than k '1's, no beautiful substring exists
         if len(ones) < k:
             return ""
-
-        best = ""
-
-        # Consider every group of k consecutive 1s
-        for i in range(len(ones) - k + 1):
-            first = ones[i]
-            last = ones[i + k - 1]
-
-            # Minimum substring containing these k ones
-            current = s[first:last + 1]
-
-            if best == "":
-                best = current
-            elif len(current) < len(best):
-                best = current
-            elif len(current) == len(best) and current < best:
-                best = current
-
-        return best
         
+        min_len = float('inf')
+        ans = ""
+        
+        # Examine every group of k consecutive '1's
+        for i in range(len(ones) - k + 1):
+            start = ones[i]
+            end = ones[i + k - 1]
+            sub = s[start : end + 1]
+            
+            # Update best answer if substring is shorter, 
+            # or same length but lexicographically smaller
+            if len(sub) < min_len:
+                min_len = len(sub)
+                ans = sub
+            elif len(sub) == min_len and sub < ans:
+                ans = sub
+                
+        return ans
