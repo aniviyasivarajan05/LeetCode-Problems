@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0075-sort-colors](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/0075-sort-colors) |
 | [1386-cinema-seat-allocation](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/1386-cinema-seat-allocation) |
 | [1872-stone-game-viii](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/1872-stone-game-viii) |
 | [3069-distribute-elements-into-two-arrays-i](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/3069-distribute-elements-into-two-arrays-i) |
@@ -80,5 +81,18 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0075-sort-colors](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/0075-sort-colors) |
 | [3734-lexicographically-smallest-palindromic-permutation-greater-than-target](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/3734-lexicographically-smallest-palindromic-permutation-greater-than-target) |
+## Sorting
+|  |
+| ------- |
+| [0075-sort-colors](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/0075-sort-colors) |
+## Quicksort
+|  |
+| ------- |
+| [0075-sort-colors](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/0075-sort-colors) |
+## Bubble Sort
+|  |
+| ------- |
+| [0075-sort-colors](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/0075-sort-colors) |
 <!---LeetCode Topics End-->
