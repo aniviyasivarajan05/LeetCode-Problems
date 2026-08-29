@@ -1,22 +1,25 @@
 class Solution:
     def lexicographicallySmallestArray(self, nums, limit):
         n = len(nums)
+        arr = sorted((nums[i], i) for i in range(n))
+        ans = nums[:]
 
-        arr = sorted((num, i) for i, num in enumerate(nums))
+        start = 0
 
-        result = nums[:]
-        group = []
+        while start < n:
+            end = start
 
-        for i in range(n):
-            group.append(arr[i])
+            # Find all elements in the same swappable group
+            while end + 1 < n and arr[end + 1][0] - arr[end][0] <= limit:
+                end += 1
 
-            if i == n - 1 or arr[i + 1][0] - arr[i][0] > limit:
-                indices = sorted(idx for val, idx in group)
-                values = sorted(val for val, idx in group)
+            # Get and sort only the indices
+            indices = sorted(arr[i][1] for i in range(start, end + 1))
 
-                for idx, val in zip(indices, values):
-                    result[idx] = val
+            # Values are already sorted because arr is sorted
+            for i, idx in enumerate(indices):
+                ans[idx] = arr[start + i][0]
 
-                group = []
+            start = end + 1
 
-        return result 
+        return ans
