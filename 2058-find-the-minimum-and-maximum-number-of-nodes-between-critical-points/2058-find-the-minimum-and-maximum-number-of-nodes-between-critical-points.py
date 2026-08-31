@@ -2,8 +2,8 @@ class Solution:
     def nodesBetweenCriticalPoints(self, head: Optional[ListNode]) -> List[int]:
         prev = head
         curr = head.next
-        position = 2
 
+        index = 1
         first = -1
         last = -1
         min_dist = float('inf')
@@ -11,22 +11,20 @@ class Solution:
         while curr.next:
             nxt = curr.next
 
-            # Check if current node is a critical point
             if (curr.val > prev.val and curr.val > nxt.val) or \
                (curr.val < prev.val and curr.val < nxt.val):
 
                 if first == -1:
-                    first = position
+                    first = index
                 else:
-                    min_dist = min(min_dist, position - last)
+                    min_dist = min(min_dist, index - last)
 
-                last = position
+                last = index
 
             prev = curr
-            curr = curr.next
-            position += 1
+            curr = nxt
+            index += 1
 
-        # Fewer than 2 critical points
         if first == -1 or first == last:
             return [-1, -1]
 
