@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/0075-sort-colors) |
+| [0274-h-index](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/0274-h-index) |
 | [1386-cinema-seat-allocation](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/1386-cinema-seat-allocation) |
 | [1872-stone-game-viii](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/1872-stone-game-viii) |
 | [2091-removing-minimum-and-maximum-from-array](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/2091-removing-minimum-and-maximum-from-array) |
@@ -97,6 +98,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/0075-sort-colors) |
+| [0274-h-index](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/0274-h-index) |
 | [2948-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/2948-make-lexicographically-smallest-array-by-swapping-elements) |
 ## Quicksort
 |  |
@@ -122,4 +124,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/3568-minimum-moves-to-clean-the-classroom) |
+## Counting Sort
+|  |
+| ------- |
+| [0274-h-index](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/0274-h-index) |
 <!---LeetCode Topics End-->
