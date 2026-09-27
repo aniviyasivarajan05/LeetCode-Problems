@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0075-sort-colors](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/0075-sort-colors) |
 | [0274-h-index](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/0274-h-index) |
+| [0283-move-zeroes](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/0283-move-zeroes) |
 | [1386-cinema-seat-allocation](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/1386-cinema-seat-allocation) |
 | [1872-stone-game-viii](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/1872-stone-game-viii) |
 | [2091-removing-minimum-and-maximum-from-array](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/2091-removing-minimum-and-maximum-from-array) |
@@ -101,6 +102,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/0075-sort-colors) |
+| [0283-move-zeroes](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/0283-move-zeroes) |
 | [3734-lexicographically-smallest-palindromic-permutation-greater-than-target](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/3734-lexicographically-smallest-palindromic-permutation-greater-than-target) |
 ## Sorting
 |  |
