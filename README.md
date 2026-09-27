@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/0075-sort-colors) |
+| [0215-kth-largest-element-in-an-array](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/0215-kth-largest-element-in-an-array) |
 | [0274-h-index](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/0274-h-index) |
 | [0283-move-zeroes](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/0283-move-zeroes) |
 | [1386-cinema-seat-allocation](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/1386-cinema-seat-allocation) |
@@ -108,6 +109,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/0075-sort-colors) |
+| [0215-kth-largest-element-in-an-array](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/0215-kth-largest-element-in-an-array) |
 | [0274-h-index](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/0274-h-index) |
 | [2948-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/2948-make-lexicographically-smallest-array-by-swapping-elements) |
 ## Quicksort
@@ -150,4 +152,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2265-count-nodes-equal-to-average-of-subtree](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0215-kth-largest-element-in-an-array](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/0215-kth-largest-element-in-an-array) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0215-kth-largest-element-in-an-array](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/0215-kth-largest-element-in-an-array) |
+## Quickselect
+|  |
+| ------- |
+| [0215-kth-largest-element-in-an-array](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/0215-kth-largest-element-in-an-array) |
 <!---LeetCode Topics End-->
