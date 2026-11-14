@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0217-contains-duplicate](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/0217-contains-duplicate) |
+| [0242-valid-anagram](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/0242-valid-anagram) |
 | [1386-cinema-seat-allocation](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/1386-cinema-seat-allocation) |
 | [3471-find-the-largest-almost-missing-integer](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/3471-find-the-largest-almost-missing-integer) |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/3568-minimum-moves-to-clean-the-classroom) |
@@ -58,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0115-distinct-subsequences](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/0115-distinct-subsequences) |
+| [0242-valid-anagram](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/0242-valid-anagram) |
 | [0940-distinct-subsequences-ii](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/0940-distinct-subsequences-ii) |
 | [1927-sum-game](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/1927-sum-game) |
 | [2904-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/2904-shortest-and-lexicographically-smallest-beautiful-string) |
@@ -113,6 +115,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0075-sort-colors](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/0075-sort-colors) |
 | [0215-kth-largest-element-in-an-array](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/0217-contains-duplicate) |
+| [0242-valid-anagram](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/0242-valid-anagram) |
 | [0274-h-index](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/0274-h-index) |
 | [2948-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/2948-make-lexicographically-smallest-array-by-swapping-elements) |
 ## Quicksort
