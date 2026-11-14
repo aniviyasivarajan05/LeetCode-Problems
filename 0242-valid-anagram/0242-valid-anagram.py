@@ -3,12 +3,12 @@ class Solution:
         if len(s) != len(t):
             return False
 
-        freq = [0] * 26
+        count = [0] * 26
 
-        for ch in s:
-            freq[ord(ch) - ord('a')] += 1
+        for c in s:
+            count[ord(c) - ord('a')] += 1
 
-        for ch in t:
-            freq[ord(ch) - ord('a')] -= 1
+        for c in t:
+            count[ord(c) - ord('a')] -= 1
 
-        return all(count == 0 for count in freq)
+        return all(x == 0 for x in count)
