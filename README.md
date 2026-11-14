@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0075-sort-colors](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/0075-sort-colors) |
 | [0215-kth-largest-element-in-an-array](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/0215-kth-largest-element-in-an-array) |
+| [0217-contains-duplicate](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/0217-contains-duplicate) |
 | [0274-h-index](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/0274-h-index) |
 | [0283-move-zeroes](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/0283-move-zeroes) |
 | [1386-cinema-seat-allocation](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/1386-cinema-seat-allocation) |
@@ -23,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0217-contains-duplicate](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/0217-contains-duplicate) |
 | [1386-cinema-seat-allocation](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/1386-cinema-seat-allocation) |
 | [3471-find-the-largest-almost-missing-integer](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/3471-find-the-largest-almost-missing-integer) |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/3568-minimum-moves-to-clean-the-classroom) |
@@ -110,6 +112,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0075-sort-colors](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/0075-sort-colors) |
 | [0215-kth-largest-element-in-an-array](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/0215-kth-largest-element-in-an-array) |
+| [0217-contains-duplicate](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/0217-contains-duplicate) |
 | [0274-h-index](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/0274-h-index) |
 | [2948-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/2948-make-lexicographically-smallest-array-by-swapping-elements) |
 ## Quicksort
