@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0033-search-in-rotated-sorted-array](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/0033-search-in-rotated-sorted-array) |
 | [0075-sort-colors](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/0075-sort-colors) |
 | [0215-kth-largest-element-in-an-array](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/0217-contains-duplicate) |
@@ -170,4 +171,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/0215-kth-largest-element-in-an-array) |
+## Binary Search
+|  |
+| ------- |
+| [0033-search-in-rotated-sorted-array](https://github.com/aniviyaksivarajan2005-coder/LeetCode-Problems/tree/master/0033-search-in-rotated-sorted-array) |
 <!---LeetCode Topics End-->
